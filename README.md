@@ -6,7 +6,7 @@ This repository contains the implementation of the word2vec model (skip-gram arc
 ## How to run
 
 ### Dataset
-To train the model we use the Reuters corpus available through the nltk api. `helper.py` contains the required methods to read and process the required data. 
+To train the model I have used the Reuters corpus available through the nltk api. `helper.py` contains the required methods to read and process the required data. 
 
 ### Setting the hyperparameters
 All the hyperparameters are loaded from `config.json` file. Here I have briefly described the meaning of each of these hyperparameter flags present in `config.json`.
