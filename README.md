@@ -44,7 +44,7 @@ To evaluate the model on Simlex-999
 ```
 python word2vec.py --mode simlex --data_path eval_data/ --load_path ckpt/model/
 ```
-To evaluate the model on analogy tak
+To evaluate the model on analogy task
 ```
 python word2vec.py --mode analogy --data_path eval_data/ --load_path ckpt/model/
 ```
