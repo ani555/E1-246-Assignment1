@@ -16,7 +16,7 @@ All the hyperparameters are loaded from `config.json` file. Here I have briefly 
 * `subsample` : if true then some of the most frequent words will be dropped with some probability (see paper)
 * `remove_stopwords` : if true then stopwords will be removed (**Note**: For this keep subsample true as well, if remove_stopwords is set to true then probabilistic subsampling is not performed)
 * `subsample_threshold` : set the subsample threshold (default is 1e-5 as mentioned in the paper)
-* `low_freq_threshold` : words less than low_freq_threshold will be removed
+* `low_freq_threshold` : words less than `low_freq_threshold` will be removed
 * `simlex_threshold` : while calculating simlex scores consider only the word pairs >= simlex_threshold (0 to consider all words)
 * `final_loss_batch_size` : while calculating the final loss on the trained model on train/val/test sets consider this as a batch size and report the average loss over total number of batches. (**Note**: This is different from `batch_size` to speed up model evaluation as while training `batch_size` can be 1)
 * `train_loss_disp_freq` : frequency of display for train loss
