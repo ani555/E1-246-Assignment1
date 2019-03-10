@@ -21,6 +21,6 @@ All the hyperparameters are loaded from `config.json` file. Here I have briefly 
 * `final_loss_batch_size` : while calculating the final loss on the trained model on train/val/test sets consider this as a batch size and report the average loss over total number of batches. (**Note**: This is different from `batch_size` to speed up model evaluation as while training `batch_size` can be 1)
 * `train_loss_disp_freq` : frequency of display for train loss
 * `val_loss_disp_freq` : frequency of display for val loss
-* `k_most_common` : this is required for the analogy task, where `k_most_common` words are considered for the task (see [1])
+* `k_most_common` : this is required for the analogy task, where `k_most_common` words are considered (see [1])
 
 
