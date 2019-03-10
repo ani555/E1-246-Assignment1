@@ -3,13 +3,13 @@
 ## About
 This repository contains the implementation of the word2vec model (skip-gram architecture) as proposed by Mikolov et al. in the paper *[Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/pdf/1301.3781.pdf)* .
 
-## How to run
+## Setup Instructions
 
 ### Dataset
 To train the model I have used the Reuters corpus available through the nltk api. `helper.py` contains the required methods to read and process the required data. 
 
 ### Setting the hyperparameters
-All the hyperparameters are loaded from `config.json` file. Here I have briefly described the meaning of each of these hyperparameter flags present in `config.json`.
+All the hyperparameters are loaded from `config.json` file. Here I have briefly described each of these hyperparameter flags present in `config.json`.
 * `learning_rate` : learning rate required to train the model
 * `batch_size` : training batch size
 * `epochs` : number of epochs to train
@@ -52,6 +52,9 @@ To visualize the words run:
 ```
 python word2vec.py --mode visualize --load_path ckpt/model/
 ```
+## Pretrained Model
+The ckpt/model folder contains the best trained model which can be used to reproduce the results in the report.
+
 ## References
 <cite>[1] Mikolov, Tomas, et al. "Efficient Estimation of Word Representations in Vector Space." 2013.</cite> <br>
 <cite>[2] Mikolov, Tomas, et al. "Distributed Representations of Words and Phrases and their Compositionality." 2013.</cite>
