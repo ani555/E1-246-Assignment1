@@ -53,4 +53,5 @@ To visualize the words
 python word2vec.py --mode visualize --load_path ckpt/model/
 ```
 ## References
-<cite>[2] Mikolov, Tomas, et al. "Distributed representations of words and phrases and their compositionality." Advances in neural information processing systems. 2013.</cite>
+<cite>[2] Mikolov, Tomas, et al. "Efficient Estimation of Word Representations in Vector Space." 2013.</cite>
+<cite>[2] Mikolov, Tomas, et al. "Distributed Representations of Words and Phrases and their Compositionality." 2013.</cite>
