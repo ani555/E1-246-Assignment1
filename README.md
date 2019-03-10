@@ -38,7 +38,7 @@ To test your model on specified words run:
 ```
 python word2vec.py --mode test --test_words company shares one --load_path ckpt/model/ 
 ```
-**Note**: If `--test_words` flag is not used then program will print the output on the test set
+**Note**: If `--test_words` flag is not used then the program will use the test set to generate the results.
 
 To evaluate the model on Simlex-999 run:
 ```
