@@ -40,15 +40,15 @@ python word2vec.py --mode test --test_words company shares one --load_path ckpt/
 ```
 **Note**: If `--test_words` flag is not used then program will print the output on the test set
 
-To evaluate the model on Simlex-999:
+To evaluate the model on Simlex-999 run:
 ```
 python word2vec.py --mode simlex --data_path eval_data/ --load_path ckpt/model/
 ```
-To evaluate the model on analogy task:
+To evaluate the model on analogy task run:
 ```
 python word2vec.py --mode analogy --data_path eval_data/ --load_path ckpt/model/
 ```
-To visualize the words:
+To visualize the words run:
 ```
 python word2vec.py --mode visualize --load_path ckpt/model/
 ```
