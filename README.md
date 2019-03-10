@@ -5,6 +5,9 @@ This repository contains the implementation of the word2vec model (skip-gram arc
 
 ## How to run
 
+### Dataset
+To train the model we use the Reuters corpus available through the nltk api. `helper.py` contains the required methods to read and process the required data. 
+
 ### Setting the hyperparameters
 All the hyperparameters are loaded from `config.json` file. Here I have briefly described the meaning of each of these hyperparameter flags present in `config.json`.
 * `learning_rate` : learning rate required to train the model
@@ -23,4 +26,11 @@ All the hyperparameters are loaded from `config.json` file. Here I have briefly 
 * `val_loss_disp_freq` : frequency of display for val loss
 * `k_most_common` : this is required for the analogy task, where `k_most_common` words are considered (see [1])
 
+### How to run
+
+To train your model run:
+
+```
+python word2vec.py --mode train --save_path ckpt/model --config_file ckpt/model_b1ns200ws5ed60ep5nsw/config.json
+```
 
