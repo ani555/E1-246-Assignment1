@@ -34,7 +34,7 @@ To train your model run:
 ```
 python word2vec.py --mode train --save_path ckpt/model/ 
 ```
-To test your model run on specified words:
+To test your model on specified words run:
 ```
 python word2vec.py --mode test --test_words company shares one --load_path ckpt/model/ 
 ```
