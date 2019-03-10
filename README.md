@@ -21,7 +21,7 @@ All the hyperparameters are loaded from `config.json` file. Here I have briefly 
 * `subsample_threshold` : set the subsample threshold (default is 1e-5 as mentioned in the paper)
 * `low_freq_threshold` : words less than `low_freq_threshold` will be removed
 * `simlex_threshold` : while calculating simlex scores consider only the word pairs >= `simlex_threshold` (set it to 0 to consider all words)
-* `final_loss_batch_size` : while calculating the final loss on the trained model on train/val/test sets consider this as a batch size and report the average loss over total number of batches. (**Note**: This is different from `batch_size` to speed up model evaluation as while training `batch_size` can be 1)
+* `final_loss_batch_size` : while calculating the final loss on the trained model on train/val/test sets consider this as a batch size and report the average loss over total number of batches. (**Note**: A separate batch size is used for final loss calculation in order to speed up the loss calculation as training `batch_size` can be 1)
 * `train_loss_disp_freq` : frequency of display for train loss
 * `val_loss_disp_freq` : frequency of display for val loss
 * `k_most_common` : this is required for the analogy task, where `k_most_common` words are considered (see [1])
