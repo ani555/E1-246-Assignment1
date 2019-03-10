@@ -53,7 +53,7 @@ To visualize the words run:
 python word2vec.py --mode visualize --load_path ckpt/model/
 ```
 ## Pretrained Model
-The ckpt/model folder contains the best trained model which can be used to reproduce the results in the report.
+The `ckpt/model` directory contains the best trained model which can be used to reproduce the results in the report.
 
 ## References
 <cite>[1] Mikolov, Tomas, et al. "Efficient Estimation of Word Representations in Vector Space." 2013.</cite> <br>
