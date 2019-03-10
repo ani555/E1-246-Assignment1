@@ -28,9 +28,27 @@ All the hyperparameters are loaded from `config.json` file. Here I have briefly 
 
 ### How to run
 
+All the below commands assume that `config.json` is present in the same directory as the code. If you wish to load `config.json` from some other directory then please specify that using `--config_file` flag as `--config_file dirname/config.json` in all of the commands below
+
 To train your model run:
-
 ```
-python word2vec.py --mode train --save_path ckpt/model --config_file ckpt/model_b1ns200ws5ed60ep5nsw/config.json
+python word2vec.py --mode train --save_path ckpt/model/ 
 ```
+To test your model run on specified words:
+```
+python word2vec.py --mode test --test_words company shares one --load_path ckpt/model/ 
+```
+**Note**: If `--test_words` flag is not used then program will print the output on the test set
 
+To evaluate the model on Simlex-999
+```
+python word2vec.py --mode simlex --data_path eval_data/ --load_path ckpt/model/
+```
+To evaluate the model on analogy tak
+```
+python word2vec.py --mode analogy --data_path eval_data/ --load_path ckpt/model/
+```
+To visualize the words
+```
+python word2vec.py --mode visualize --load_path ckpt/model/
+```
