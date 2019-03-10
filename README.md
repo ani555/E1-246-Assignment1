@@ -53,5 +53,5 @@ To visualize the words
 python word2vec.py --mode visualize --load_path ckpt/model/
 ```
 ## References
-<cite>[2] Mikolov, Tomas, et al. "Efficient Estimation of Word Representations in Vector Space." 2013.</cite>
+<cite>[1] Mikolov, Tomas, et al. "Efficient Estimation of Word Representations in Vector Space." 2013.</cite> <br>
 <cite>[2] Mikolov, Tomas, et al. "Distributed Representations of Words and Phrases and their Compositionality." 2013.</cite>
