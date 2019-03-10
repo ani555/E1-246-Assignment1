@@ -7,3 +7,4 @@ This repository contains the implementation of the word2vec model (skip-gram arc
 
 ### Setting the hyperparameters
 All the hyperparameters are loaded from `config.json` file. Here I have briefly described the meaning of each of these hyperparameter flags present in `config.json`.
+  this is a block
