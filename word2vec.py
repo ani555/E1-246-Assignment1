@@ -347,6 +347,7 @@ def main():
 
 		if mode != 'train':
 			vocab = helper.load_obj(load_path, 'vocab.pkl')
+			vocab_size = len(vocab)
 			word2idx, idx2word = helper.load_obj(load_path, 'mappings.pkl')	
 
 		if mode == 'test':
