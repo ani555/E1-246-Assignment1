@@ -5,6 +5,14 @@ This repository contains the implementation of the word2vec model (skip-gram arc
 
 ## Setup Instructions
 
+### Setting up the environment
+Python 3.6 is required to run the code in this repository. I have used python 3.6.7 
+
+To intall the requirements
+```
+pip3 install -r requirements.txt
+```
+
 ### Dataset
 To train the model I have used the Reuters corpus available through the nltk api. `helper.py` contains the required methods to read and process the required data. 
 
