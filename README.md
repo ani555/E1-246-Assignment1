@@ -33,28 +33,28 @@ All the below commands assume that `config.json` is present in the same director
 
 To train your model run:
 ```
-python word2vec.py --mode train --save_path ckpt/model/ 
+python word2vec.py --mode train --save_path ckpt/model_60d_ep3/ 
 ```
 To test your model on specified words run:
 ```
-python word2vec.py --mode test --test_words company shares one --load_path ckpt/model/ 
+python word2vec.py --mode test --test_words company shares one --load_path ckpt/model_60d_ep3/ 
 ```
 **Note**: If `--test_words` flag is not used then the program will use the test set to generate the results.
 
 To evaluate the model on Simlex-999 run:
 ```
-python word2vec.py --mode simlex --data_path eval_data/ --load_path ckpt/model/
+python word2vec.py --mode simlex --data_path eval_data/ --load_path ckpt/model_60d_ep3/
 ```
 To evaluate the model on analogy task run:
 ```
-python word2vec.py --mode analogy --data_path eval_data/ --load_path ckpt/model/
+python word2vec.py --mode analogy --data_path eval_data/ --load_path ckpt/model_60d_ep3/
 ```
 To visualize the words run:
 ```
-python word2vec.py --mode visualize --load_path ckpt/model/
+python word2vec.py --mode visualize --load_path ckpt/model_60d_ep3/
 ```
 ## Pretrained Model
-The `ckpt/model` directory contains the best trained model which can be used to reproduce the results in the report.
+The `ckpt` directory contains the trained models for 60-d and 100-d embeddings trained on 3 epochs and 5 epochs which can be used to reproduce some of the results in the report.
 
 ## References
 <cite>[1] Mikolov, Tomas, et al. "Efficient Estimation of Word Representations in Vector Space." 2013.</cite> <br>
