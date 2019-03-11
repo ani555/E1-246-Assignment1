@@ -25,7 +25,8 @@ All the hyperparameters are loaded from `config.json` file. Here I have briefly 
 * `train_loss_disp_freq` : frequency of display for train loss
 * `val_loss_disp_freq` : frequency of display for val loss
 * `k_most_common` : this is required for the analogy task, where `k_most_common` words are considered (see [1])
-
+* `analogy_top_k`: if word occurs in [0:analogy_top_k] prediction is counted as correct
+* `print_top_k`: number of predictions to print in test and analogy tasks
 ### How to run
 
 All the below commands assume that `config.json` is present in the same directory as the code. If you wish to load `config.json` from some other directory then please specify that using `--config_file` flag as `--config_file dirname/config.json` in all of the commands below
