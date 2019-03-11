@@ -62,7 +62,7 @@ To visualize the words run:
 python word2vec.py --mode visualize --load_path ckpt/model_60d_ep3/
 ```
 ## Pretrained Model
-The `ckpt` directory contains the trained models for 60-d and 100-d embeddings trained on 3 epochs and 5 epochs which can be used to reproduce some of the results in the report. **Note**: By default the config file in the code directory corresponds to `model_60d_3ep` if you wish to evaluate for some other task please use the specific config files in the respective model directories.
+The `ckpt` directory contains the trained models for 60-d and 100-d embeddings trained on 3 epochs and 5 epochs which can be used to reproduce some of the results in the report. **Note**: By default the config file in the code directory corresponds to `model_60d_ep3` if you wish to evaluate for some other task please use the specific config files in the respective model directories.
 
 ## References
 <cite>[1] Mikolov, Tomas, et al. "Efficient Estimation of Word Representations in Vector Space." 2013.</cite> <br>
