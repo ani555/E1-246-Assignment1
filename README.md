@@ -25,7 +25,7 @@ All the hyperparameters are loaded from `config.json` file. Here I have briefly 
 * `train_loss_disp_freq` : frequency of display for train loss
 * `val_loss_disp_freq` : frequency of display for val loss
 * `k_most_common` : this is required for the analogy task, where `k_most_common` words are considered (see [1])
-* `analogy_top_k`: if word occurs in [0:analogy_top_k] prediction is counted as correct
+* `analogy_top_k`: if target word occurs in 0:analogy_top_k predictions then it is counted towards calculation of accuracy
 * `print_top_k`: number of predictions to print in test and analogy tasks
 ### How to run
 
