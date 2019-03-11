@@ -8,7 +8,7 @@ This repository contains the implementation of the word2vec model (skip-gram arc
 ### Setting up the environment
 Python 3.6 is required to run the code in this repository. I have used python 3.6.7 
 
-To intall the requirements
+To install the requirements
 ```
 pip3 install -r requirements.txt
 ```
