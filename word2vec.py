@@ -353,6 +353,7 @@ def main():
 		if mode == 'test':
 
 			if test_words is None:
+				_, _, test_ids = helper.get_fileids(val_split=0.2)
 				X_test = helper.get_test_data(test_ids, word2idx, vocab)
 			else:
 				X_test = [word2idx[word] for word in test_words if word in vocab]
