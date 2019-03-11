@@ -245,7 +245,7 @@ def eval_analogy_task(sess, questions, model, word2idx, idx2word, num_print=5, p
 
 	for i in range(num_print):
 		print('{}:{}::{}:{}'.format(idx2word[w0[i]],idx2word[w1[i]],idx2word[w2[i]],w3[i]))
-		print('Top {} predictions:'.format(k))
+		print('Top {} predictions:'.format(print_top_k))
 		top_k_words=''
 		for j in range(print_top_k): 
 			top_k_words = top_k_words + idx2word[result[i,j]] + ' '

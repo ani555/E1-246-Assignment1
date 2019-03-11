@@ -1,0 +1,19 @@
+{
+    "learning_rate": 0.5,
+    "batch_size": 1,
+    "epochs": 3,
+    "win_radius": 5,
+    "neg_samples": 128,
+    "embed_dims": 100,
+    "subsample": true,
+    "subsample_threshold": 1e-5,
+    "low_freq_threshold": 2,
+    "remove_stopwords": true,
+    "simlex_threshold": 0,
+    "final_loss_batch_size":128,
+    "train_loss_disp_freq": 5000,
+    "val_loss_disp_freq":100000,
+    "k_most_common": 5000,
+    "analogy_top_k": 100,
+    "print_top_k": 20
+}
