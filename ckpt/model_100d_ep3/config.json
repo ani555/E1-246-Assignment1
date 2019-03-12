@@ -13,7 +13,7 @@
     "final_loss_batch_size":128,
     "train_loss_disp_freq": 5000,
     "val_loss_disp_freq":100000,
-    "k_most_common": 5000,
+    "k_most_common": 1000,
     "analogy_top_k": 100,
     "print_top_k": 20
 }
